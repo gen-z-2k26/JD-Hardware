@@ -13,7 +13,7 @@ export const FOOTER_MENU_SLUGS = [
 ] as const;
 
 const SLUG_ALIASES: Record<string, string> = {
-  "discover-orvexo": "footer-discover",
+  "discover-jd-hardware": "footer-discover",
   discover: "footer-discover",
   "customer-care": "footer-customer-care",
   "footer-care": "footer-customer-care",

@@ -1,56 +1,30 @@
 import type { GenericReview } from "@/lib/types";
 
-const STATES = [
-  ["California", "Los Angeles"],
-  ["Texas", "Austin"],
-  ["New York", "Brooklyn"],
-  ["Florida", "Miami"],
-  ["Illinois", "Chicago"],
-  ["Washington", "Seattle"],
-  ["Colorado", "Denver"],
-  ["Georgia", "Atlanta"],
-  ["Arizona", "Phoenix"],
-  ["Ohio", "Columbus"],
-  ["Massachusetts", "Boston"],
-  ["Oregon", "Portland"],
-  ["Pennsylvania", "Philadelphia"],
-  ["North Carolina", "Charlotte"],
-  ["Michigan", "Detroit"],
-  ["Virginia", "Richmond"],
-  ["New Jersey", "Newark"],
-  ["Tennessee", "Nashville"],
-  ["Minnesota", "Minneapolis"],
-  ["Wisconsin", "Madison"],
-  ["Missouri", "Kansas City"],
-  ["Maryland", "Baltimore"],
-  ["Indiana", "Indianapolis"],
-  ["Nevada", "Las Vegas"],
-  ["Utah", "Salt Lake City"],
-  ["Connecticut", "Hartford"],
-  ["South Carolina", "Charleston"],
-  ["Alabama", "Birmingham"],
-  ["Kentucky", "Louisville"],
-  ["Louisiana", "New Orleans"],
-  ["Oklahoma", "Oklahoma City"],
-  ["Iowa", "Des Moines"],
-  ["Arkansas", "Little Rock"],
-  ["Kansas", "Wichita"],
-  ["Mississippi", "Jackson"],
-  ["Nebraska", "Omaha"],
-  ["New Mexico", "Albuquerque"],
-  ["Idaho", "Boise"],
-  ["Hawaii", "Honolulu"],
-  ["Maine", "Portland"],
-  ["New Hampshire", "Manchester"],
-  ["Rhode Island", "Providence"],
-  ["Montana", "Billings"],
-  ["Delaware", "Wilmington"],
-  ["South Dakota", "Sioux Falls"],
-  ["North Dakota", "Fargo"],
-  ["Alaska", "Anchorage"],
-  ["Vermont", "Burlington"],
-  ["Wyoming", "Cheyenne"],
-  ["West Virginia", "Charleston"],
+const PLACES = [
+  ["Greater London", "London"],
+  ["Greater Manchester", "Manchester"],
+  ["West Midlands", "Birmingham"],
+  ["West Yorkshire", "Leeds"],
+  ["Bristol", "Bristol"],
+  ["Glasgow", "Glasgow"],
+  ["Cardiff", "Cardiff"],
+  ["Merseyside", "Liverpool"],
+  ["Edinburgh", "Edinburgh"],
+  ["South Yorkshire", "Sheffield"],
+  ["Nottinghamshire", "Nottingham"],
+  ["Belfast", "Belfast"],
+  ["Tyne and Wear", "Newcastle"],
+  ["Hampshire", "Southampton"],
+  ["Kent", "Canterbury"],
+  ["Leicestershire", "Leicester"],
+  ["East Sussex", "Brighton"],
+  ["Oxfordshire", "Oxford"],
+  ["Cambridgeshire", "Cambridge"],
+  ["Devon", "Exeter"],
+  ["Norfolk", "Norwich"],
+  ["Aberdeen", "Aberdeen"],
+  ["Swansea", "Swansea"],
+  ["Derry", "Derry"],
 ] as const;
 
 const FIRST = [
@@ -64,60 +38,61 @@ const FIRST = [
 const LAST = "ABCDEFGHJKLMNPRSTW".split("");
 
 const PRODUCTS = [
-  "refrigerator",
-  "wine fridge",
-  "range hood",
-  "washer",
-  "portable air conditioner",
-  "space heater",
-  "humidifier",
-  "hair dryer",
-  "straightener",
-  "garage door opener",
+  "hedge trimmer",
+  "pressure washer",
+  "garden arch",
+  "wood stove",
+  "computer monitor",
+  "leaf blower",
+  "porch swing",
+  "chainsaw",
+  "greenhouse",
+  "log rack",
+  "power tiller",
 ];
 
 const TITLES_5 = [
-  "Droviia packed it carefully",
-  "Would order from Droviia again",
-  "Exactly the Droviia listing",
-  "Smooth Droviia checkout",
+  "Packed with care",
+  "Would order again",
+  "Matched the listing",
+  "Smooth checkout",
   "Arrived ready to use",
-  "Clear tracking from Droviia",
+  "Clear tracking",
   "Well made and well packed",
-  "Easy order from our state",
-  "Photos matched the Droviia page",
-  "Glad we chose Droviia",
+  "Easy order",
+  "Photos matched the page",
+  "Glad we chose this shop",
 ];
 
 const TITLES_4 = [
-  "Good Droviia order",
-  "Happy with Droviia overall",
-  "Solid buy from Droviia",
-  "Worth ordering from Droviia",
+  "Good order",
+  "Happy overall",
+  "Solid buy",
+  "Worth ordering",
   "Quality was there",
-  "Would recommend Droviia",
+  "Would recommend",
 ];
 
 function fiveStarNote(product: string, city: string, state: string, index: number) {
   const notes = [
-    `Bought a ${product} from Droviia for our home in ${city}, ${state}. It was packed carefully and matched the listing.`,
-    `Droviia shipped my ${product} to ${city} on time. Checkout was clear and the box arrived in good shape.`,
-    `Needed a ${product} here in ${state} and ordered it from Droviia. Tracking was easy to follow and it was ready to use.`,
-    `Our ${product} from Droviia showed up in ${city} exactly as described. I would order from them again.`,
-    `Placed a Droviia order for a ${product} while in ${state}. The price was fair and the shipping updates were useful.`,
-    `The ${product} I ordered from Droviia for ${city} feels well made. Support answered a question the same day.`,
-    `Shopping Droviia from ${state} was straightforward. The ${product} was packed securely and the photos were accurate.`,
-    `Gave a ${product} from Droviia as a gift in ${city}. The packaging looked neat and the order was simple to place.`,
+    `Bought a ${product} for our home in ${city}, ${state}. It was packed carefully and matched the listing.`,
+    `My ${product} arrived in ${city} on time. Checkout was clear and the box arrived in good shape.`,
+    `Needed a ${product} here in ${state}. Tracking was easy to follow and it was ready to use.`,
+    `Our ${product} showed up in ${city} exactly as described. I would order from them again.`,
+    `Placed an order for a ${product} while in ${state}. The price was fair and the shipping updates were useful.`,
+    `The ${product} I ordered for ${city} feels well made. Support answered a question the same day.`,
+    `Shopping from ${state} was straightforward. The ${product} was packed securely and the photos were accurate.`,
+    `Gave a ${product} as a gift in ${city}. The packaging looked neat and the order was simple to place.`,
   ];
   return notes[index % notes.length];
 }
 
 function fourStarNote(product: string, city: string, state: string, index: number) {
   const notes = [
-    `The ${product} from Droviia is good quality. Delivery to ${city}, ${state} took a day longer than the first estimate.`,
-    `Happy with my Droviia order in ${state}. The ${product} does the job. Shipping to ${city} was a little slower than I hoped.`,
-    `Solid ${product} for the price. Droviia kept me updated on the way to ${city}.`,
-    `I would recommend Droviia to someone in ${state}. The ${product} arrived safely, just not on the first promised day.`,
+    `The ${product} is good quality. Delivery to ${city}, ${state} took a day longer than the first estimate.`,
+    `Happy with my order in ${state}. The ${product} does the job. Shipping to ${city} was a little slower than I hoped.`,
+    `Solid ${product} for the price. I was kept updated on the way to ${city}.`,
+    `I would recommend the shop to someone in ${state}. The ${product} arrived safely, just not on the first promised day.`,
   ];
   return notes[index % notes.length];
 }
@@ -136,7 +111,7 @@ function buildStoreReviews(): GenericReview[] {
   ];
 
   return ratings.map((rating, index) => {
-    const [state, city] = STATES[index % STATES.length];
+    const [state, city] = PLACES[index % PLACES.length];
     const first = FIRST[index % FIRST.length];
     const last = LAST[(index * 3) % LAST.length];
     const product = PRODUCTS[index % PRODUCTS.length];
@@ -151,7 +126,7 @@ function buildStoreReviews(): GenericReview[] {
         : fourStarNote(product, city, state, index),
       date: dateFor(index),
       verified: true,
-      location: `${city}, ${state}, USA`,
+      location: `${city}, ${state}, United Kingdom`,
     };
   });
 }

@@ -8,19 +8,19 @@ import { cn } from "@/lib/utils";
 const pillars = [
   {
     title: "Clear product information",
-    text: "Listings aim to show the features and specifications you need before you compare.",
+    text: "Listings aim to show descriptions, specifications, and purchasing details before you compare.",
   },
   {
     title: "Transparent pricing",
-    text: "Prices are in U.S. dollars. Shipping and the order total are shown before you pay.",
+    text: "Prices are in pounds sterling. Applicable charges are shown before you place the order.",
   },
   {
-    title: "Shipping you can review",
-    text: "Standard shipping is $5 under $100 and free at $100 or more. Freight for large appliances is shown at checkout.",
+    title: "Free UK delivery",
+    text: "Standard delivery throughout the United Kingdom is free. The published estimate is 4 to 7 business days.",
   },
   {
     title: "Straightforward returns",
-    text: "Eligible items have a 30-day window. Conditions apply, return shipping is paid by the customer, and a $5 restocking fee applies to standard non-defective returns.",
+    text: "Eligible products may be returned within 28 days, with a return label and no restocking fee.",
   },
 ];
 
@@ -34,7 +34,7 @@ export function CommitmentSection() {
         <SectionHeader
           eyebrow="Our commitment"
           title="Clear information, then support when you need it"
-          subtitle="The same standards apply whether the order is a styling tool or a major appliance."
+          subtitle="Clear product information, free UK delivery, and a 28-day return window."
           titleId="commitment-heading"
           action={
             <Link

@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Orvexo Storefront Footer
- * Description: Restores Appearance → Menus on this block theme and exposes /wp-json/orvexo/v1/footer and /wp-json/orvexo/v1/theme for the Next.js storefront.
+ * Plugin Name: JD Hardware Storefront Footer
+ * Description: Restores Appearance → Menus on this block theme and exposes /wp-json/orvexo/v1/footer and /wp-json/orvexo/v1/theme for the JD Hardware storefront.
  * Version: 1.3.0
- * Author: Orvexo
+ * Author: JD Hardware
  */
 
 if (!defined('ABSPATH')) {
@@ -15,7 +15,7 @@ function orvexo_footer_menu_slugs()
     return array(
         'footer-discover' => __('Footer: Discover', 'orvexo-storefront'),
         'footer-customer-care' => __('Footer: Customer Care', 'orvexo-storefront'),
-        'footer-trust' => __('Footer: Trust & Transparency', 'orvexo-storefront'),
+        'footer-trust' => __('Footer: Trust & Legal', 'orvexo-storefront'),
     );
 }
 
@@ -129,7 +129,7 @@ function orvexo_footer_rest_payload()
             get_bloginfo('name')
         ),
         'footer-customer-care' => 'Customer Care',
-        'footer-trust' => 'Trust & Transparency',
+        'footer-trust' => 'Trust & Legal',
     );
 
     $columns = array();

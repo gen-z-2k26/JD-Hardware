@@ -38,7 +38,7 @@ export function NewsletterSection({ settings }: { settings: StoreSettings }) {
               Stay in the loop
             </h2>
             <p className="mt-3 max-w-md text-pretty text-muted-foreground">
-              Get updates on new arrivals and offers from {settings.name}.
+              Notes on new products for the home, garden, and workshop from {settings.name}.
             </p>
             <form
               className="mt-6 flex max-w-md flex-col gap-3 sm:flex-row"

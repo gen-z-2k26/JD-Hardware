@@ -1,8 +1,8 @@
 {
-  "id": "droviia",
-  "name": "DROVIIA",
-  "tagline": "Everyday essentials for better living",
-  "logo": "/brand/droviia-logo-dark.png",
+  "id": "jd-hardware",
+  "name": "JD Hardware",
+  "tagline": "Products for your home, garden and beyond",
+  "logo": "/brand/jd-hardware-logo-dark.png",
   "currency": "",
   "currencySymbol": "",
   "currencyPrefix": "",
@@ -10,90 +10,170 @@
   "priceDecimals": 2,
   "thousandSeparator": ",",
   "decimalSeparator": ".",
-  "locale": "en-US",
+  "locale": "en-GB",
   "contact": {
-    "email": "info@droviia.us",
-    "phone": "+1 (424) 329-0223",
-    "address": "1320 W El Segundo Blvd Ste E, Gardena, CA 90247, United States",
-    "openingHours": "Mon-Fri, 9:00 AM-5:00 PM PT",
-    "legalName": "Modern Closet Spaces LLC",
+    "email": "info@jdhardware.shop",
+    "phone": "020 7606 3333",
+    "address": "280A Norwood Road, Norwood, London SE27 9AJ, United Kingdom",
+    "openingHours": "",
+    "legalName": "JD Hardware Co.",
     "vatNumber": ""
   },
   "promoBanner": "",
   "promoId": "",
   "promoCoupon": "",
   "hero": {
-    "headline": "Comfort, convenience, and the essentials for home",
-    "support": "Kitchen appliances, climate control, and personal care, with prices, shipping, and support you can review before you buy."
+    "headline": "Products for your home, garden and beyond",
+    "support": "At JD Hardware, we believe finding the right products for your home, garden, workspace and everyday needs should be straightforward, convenient and reliable."
   },
   "navigation": {
     "header": [
-      { "label": "Home", "href": "/" },
-      { "label": "Shop", "href": "/products" },
-      { "label": "About", "href": "/about-us" },
-      { "label": "FAQs", "href": "/faqs" },
-      { "label": "Contact", "href": "/contact-us" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Shop",
+        "href": "/products"
+      },
+      {
+        "label": "About",
+        "href": "/about-us"
+      },
+      {
+        "label": "FAQs",
+        "href": "/faqs"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact-us"
+      }
     ],
     "footerColumns": [
       {
-        "title": "Quick Links",
+        "title": "Discover JD Hardware",
         "slug": "footer-discover",
         "links": [
-          { "label": "Home", "href": "/" },
-          { "label": "Shop All", "href": "/products" },
-          { "label": "Reviews", "href": "/reviews" },
-          { "label": "Categories", "href": "/products" },
-          { "label": "About Us", "href": "/about-us" },
-          { "label": "Our Commitment", "href": "/our-commitment" },
-          { "label": "Contact Us", "href": "/contact-us" }
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Shop All",
+            "href": "/products"
+          },
+          {
+            "label": "Shop by Category",
+            "href": "/products"
+          },
+          {
+            "label": "About Us",
+            "href": "/about-us"
+          },
+          {
+            "label": "Our Commitment",
+            "href": "/our-commitment"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact-us"
+          },
+          {
+            "label": "FAQs",
+            "href": "/faqs"
+          }
         ]
       },
       {
         "title": "Customer Care",
         "slug": "footer-customer-care",
         "links": [
-          { "label": "FAQs", "href": "/faqs" },
-          { "label": "Shipping", "href": "/shipping-policy" },
-          { "label": "Returns", "href": "/return-and-refund-policy" },
-          { "label": "Cancellations", "href": "/cancellation-policy" },
-          { "label": "Order Tracking", "href": "/track-your-order" },
-          { "label": "Payments", "href": "/payment-policy" },
-          { "label": "Warranty", "href": "/warranty" },
-          { "label": "Order Help", "href": "/order-help-center" }
+          {
+            "label": "Shipping & Delivery",
+            "href": "/shipping-policy"
+          },
+          {
+            "label": "Returns Policy",
+            "href": "/return-and-refund-policy"
+          },
+          {
+            "label": "Refund Policy",
+            "href": "/return-and-refund-policy#refund-policy"
+          },
+          {
+            "label": "Order Cancellations",
+            "href": "/cancellation-policy"
+          },
+          {
+            "label": "Payment Options",
+            "href": "/payment-policy"
+          },
+          {
+            "label": "Warranty & Support",
+            "href": "/warranty"
+          },
+          {
+            "label": "Track Your Order",
+            "href": "/track-your-order"
+          },
+          {
+            "label": "Order Help Centre",
+            "href": "/order-help-center"
+          }
         ]
       },
       {
-        "title": "Legal & Policies",
+        "title": "Trust & Legal",
         "slug": "footer-trust",
         "links": [
-          { "label": "Privacy", "href": "/privacy-policy" },
-          { "label": "Terms", "href": "/terms-of-service" },
-          { "label": "Cookies", "href": "/cookie-policy" },
-          { "label": "Legal Notice", "href": "/legal-notice" },
-          { "label": "Accessibility", "href": "/accessibility-statement" },
-          { "label": "Privacy Choices", "href": "/your-privacy-choices" }
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms & Conditions",
+            "href": "/terms-of-service"
+          },
+          {
+            "label": "Cookie Policy",
+            "href": "/cookie-policy"
+          },
+          {
+            "label": "Legal Notice",
+            "href": "/legal-notice"
+          },
+          {
+            "label": "Accessibility Statement",
+            "href": "/accessibility-statement"
+          },
+          {
+            "label": "Your Privacy Choices",
+            "href": "/your-privacy-choices"
+          }
         ]
       }
     ]
   },
   "footer": {
-    "blurb": "Everyday essentials for a more comfortable home.",
+    "blurb": "A UK online shop for the home, garden, outdoor power, heating, and electronics.",
     "trustLine": "",
-    "contactTitle": "Customer Support",
+    "contactTitle": "Business Information",
     "chatLine": "24/7 Live Chat"
   },
   "seo": {
-    "title": "DROVIIA | Home appliances and everyday essentials",
-    "description": "Shop home appliances, heating and cooling, and personal care at DROVIIA. Operated by Modern Closet Spaces LLC in Gardena, California.",
+    "title": "JD Hardware | Home, garden, outdoor power, and electronics",
+    "description": "Shop lawn and garden, outdoor power equipment, heating, home improvement, wellness, electronics, and gaming at JD Hardware. Operated by JD Hardware Co. in London.",
     "keywords": [
-      "DROVIIA",
-      "home appliances",
-      "kitchen appliances",
-      "air conditioners",
-      "personal care"
+      "JD Hardware",
+      "lawn and garden",
+      "outdoor power equipment",
+      "fireplaces",
+      "home improvement",
+      "electronics",
+      "United Kingdom"
     ],
-    "ogImage": "/brand/droviia-logo-dark.png",
-    "siteUrl": "https://www.droviia.us"
+    "ogImage": "/brand/jd-hardware-logo-dark.png",
+    "siteUrl": "https://jdhardware.shop"
   },
   "theme": {
     "font": "var(--font-figtree)",
@@ -102,24 +182,24 @@
     "defaultMode": "system",
     "motion": "subtle",
     "light": {
-      "primary": "#9DCFB0",
-      "accent": "#3E6B52",
+      "primary": "#0B2FD0",
+      "accent": "#0B2FD0",
       "background": "#FFFFFF",
-      "foreground": "#1C2420",
-      "card": "#F4F7F2",
-      "muted": "#E7F0EA",
-      "mutedForeground": "#5C6B62",
-      "border": "rgba(28, 36, 32, 0.12)"
+      "foreground": "#0F172A",
+      "card": "#F4F6FB",
+      "muted": "#E8ECF7",
+      "mutedForeground": "#5A6478",
+      "border": "rgba(15, 23, 42, 0.12)"
     },
     "dark": {
-      "primary": "#9DCFB0",
-      "accent": "#B7DCC4",
-      "background": "#101613",
-      "foreground": "#F3F7F2",
-      "card": "#1A2420",
-      "muted": "#24302A",
-      "mutedForeground": "#A8B7AE",
-      "border": "rgba(243, 247, 242, 0.12)"
+      "primary": "#3B5BFF",
+      "accent": "#7C93FF",
+      "background": "#0F172A",
+      "foreground": "#F1F5F9",
+      "card": "#1A2332",
+      "muted": "#243044",
+      "mutedForeground": "#A3AEC2",
+      "border": "rgba(241, 245, 249, 0.12)"
     }
   },
   "productPage": {
@@ -140,110 +220,110 @@
       {
         "reviewer": "Amina K.",
         "rating": 5,
-        "title": "Better than the photos",
-        "content": "Packaging was careful and the item looked even better in person. Checkout was quick and tracking updates were clear.",
+        "title": "Packed with care",
+        "content": "The hedge trimmer was packed carefully and looked just as it did on the listing. Checkout was clear and the tracking updates were useful.",
         "date": "2026-09-18",
         "verified": true,
-        "location": "California, USA"
+        "location": "London, United Kingdom"
       },
       {
         "reviewer": "James R.",
         "rating": 5,
         "title": "Would order again",
-        "content": "Arrived on time and matched the description. The whole process from cart to delivery felt straightforward.",
+        "content": "A pressure washer arrived on time and matched the description. The whole path from basket to delivery felt straightforward.",
         "date": "2026-09-02",
         "verified": true,
-        "location": "Texas, USA"
+        "location": "Manchester, United Kingdom"
       },
       {
         "reviewer": "Sofia M.",
         "rating": 4,
-        "title": "Great value",
-        "content": "Solid quality for the price. Support answered my question the same day, which made the purchase easy.",
+        "title": "Good value",
+        "content": "Solid quality for the price. Support answered a question about the monitor the same day, which made the purchase easy.",
         "date": "2026-08-21",
         "verified": true,
-        "location": "New York, USA"
+        "location": "Birmingham, United Kingdom"
       },
       {
         "reviewer": "Daniel P.",
         "rating": 5,
         "title": "Well made and well packed",
-        "content": "Easy to buy, clear tracking, and the product feels well made. I would shop here again without hesitation.",
+        "content": "Easy to buy, clear tracking, and the wood stove accessories feel well made. I would shop here again.",
         "date": "2026-08-09",
         "verified": true,
-        "location": "Florida, USA"
+        "location": "Leeds, United Kingdom"
       },
       {
         "reviewer": "Priya S.",
         "rating": 5,
         "title": "Exactly as described",
-        "content": "Exactly what I needed. The photos were accurate and shipping was smooth from start to finish.",
+        "content": "Exactly the garden arch I needed. The photos were accurate and free UK delivery was smooth from start to finish.",
         "date": "2026-07-28",
         "verified": true,
-        "location": "Illinois, USA"
+        "location": "Bristol, United Kingdom"
       },
       {
         "reviewer": "Noah L.",
         "rating": 4,
         "title": "Happy overall",
-        "content": "Happy with the purchase. Quality is good. Delivery took a little longer than I hoped, but the item was worth the wait.",
+        "content": "Happy with the leaf blower. Quality is good. Delivery took a little longer than the first estimate, but it was worth the wait.",
         "date": "2026-07-14",
         "verified": true,
-        "location": "Washington, USA"
+        "location": "Glasgow, United Kingdom"
       },
       {
         "reviewer": "Elena V.",
         "rating": 5,
-        "title": "Perfect as a gift",
-        "content": "Gifted this and they loved it. Simple process from cart to door, and the packaging looked ready to give.",
+        "title": "A straightforward gift",
+        "content": "Gave a porch swing as a gift and they loved it. Simple process from basket to door, and the packaging arrived intact.",
         "date": "2026-06-30",
         "verified": true,
-        "location": "Colorado, USA"
+        "location": "Cardiff, United Kingdom"
       },
       {
         "reviewer": "Omar H.",
         "rating": 5,
-        "title": "Clean store, fair prices",
-        "content": "Clean store, fair prices, and the item was packed securely. No surprises, which is what I want from an online order.",
+        "title": "Clear store, fair prices",
+        "content": "Clear prices in pounds, and the chainsaw was packed securely. No surprises, which is what I want from an online order.",
         "date": "2026-06-11",
         "verified": true,
-        "location": "Georgia, USA"
+        "location": "Liverpool, United Kingdom"
       },
       {
         "reviewer": "Maya T.",
         "rating": 5,
         "title": "Fast and careful shipping",
-        "content": "Ordered in the evening and had tracking the next morning. Everything arrived undamaged and ready to use.",
+        "content": "Ordered a computer monitor in the evening and had tracking the next morning. It arrived undamaged and ready to set up.",
         "date": "2026-05-22",
         "verified": true,
-        "location": "Arizona, USA"
+        "location": "Edinburgh, United Kingdom"
       },
       {
         "reviewer": "Chris B.",
         "rating": 4,
         "title": "Would recommend",
-        "content": "Good quality and a fair price. The site was easy to use. I would recommend it to a friend.",
+        "content": "Good quality greenhouse and a fair price. The site was easy to use. I would recommend it to a friend.",
         "date": "2026-05-04",
         "verified": true,
-        "location": "Ohio, USA"
+        "location": "Sheffield, United Kingdom"
       },
       {
         "reviewer": "Lina W.",
         "rating": 3,
         "title": "Fine, not perfect",
-        "content": "The item is fine and does the job. Sizing notes on the page could be a bit clearer, but support helped quickly.",
+        "content": "The log rack is fine and does the job. The size notes could be a bit clearer, but support helped quickly.",
         "date": "2026-04-16",
         "verified": true,
-        "location": "Massachusetts, USA"
+        "location": "Nottingham, United Kingdom"
       },
       {
         "reviewer": "Theo A.",
         "rating": 5,
         "title": "Smooth checkout",
-        "content": "Checkout was simple, the total was clear before I paid, and the order showed up when promised.",
+        "content": "Checkout was simple, the total was clear before I paid, and the power tiller showed up inside the published window.",
         "date": "2026-03-29",
         "verified": true,
-        "location": "Oregon, USA"
+        "location": "Belfast, United Kingdom"
       }
     ]
   }

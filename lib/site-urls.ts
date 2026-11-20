@@ -1,11 +1,11 @@
-/** Public storefront paths, matching https://droviia.us/ */
+/** Public storefront paths, matching https://jdhardware.shop/ */
 
 export const CONTENT_PAGES = [
   { slug: "about-us", title: "About Us" },
   { slug: "our-commitment", title: "Our Commitment" },
   { slug: "contact-us", title: "Contact Us" },
   { slug: "faqs", title: "Frequently Asked Questions" },
-  { slug: "order-help-center", title: "Order Help Center" },
+  { slug: "order-help-center", title: "Order Help Centre" },
   { slug: "track-your-order", title: "Track Your Order" },
   { slug: "shipping-policy", title: "Shipping & Delivery" },
   { slug: "return-and-refund-policy", title: "Returns & Refunds" },
@@ -42,11 +42,8 @@ const PATH_ALIASES: Record<string, string> = {
 };
 
 const STORE_HOSTS = new Set([
-  "droviia.us",
-  "www.droviia.us",
-  "orvexo.us",
-  "www.orvexo.us",
-  "admin.orvexo.us",
+  "jdhardware.shop",
+  "www.jdhardware.shop",
 ]);
 
 export function rewriteStorefrontPath(path: string): string {

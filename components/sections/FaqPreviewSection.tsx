@@ -23,7 +23,7 @@ export function FaqPreviewSection() {
         <SectionHeader
           eyebrow="FAQs"
           title="A few answers before you order"
-          subtitle="Shipping, returns, and product questions are collected in the help center."
+          subtitle="Shipping, returns, and product questions are collected in the help centre."
           titleId="faq-preview-heading"
           action={
             <Link

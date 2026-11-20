@@ -52,7 +52,7 @@ export async function generateMetadata(): Promise<Metadata> {
       creator: settings.name,
       keywords: settings.seo.keywords.length
         ? settings.seo.keywords
-        : [settings.name, "home appliances", "personal care"],
+        : [settings.name, "lawn and garden", "outdoor power", "electronics"],
       openGraph: {
         type: "website",
         siteName: settings.name,

@@ -7,12 +7,12 @@ const steps = [
   {
     number: "01",
     title: "Browse",
-    text: "Explore appliances, climate equipment, and personal care in one catalog.",
+    text: "Explore garden, outdoor power, heating, and electronics in one catalog.",
   },
   {
     number: "02",
     title: "Review",
-    text: "Check the price, shipping, and total before you pay.",
+    text: "Check the price in pounds, delivery, and total before you pay.",
   },
   {
     number: "03",
